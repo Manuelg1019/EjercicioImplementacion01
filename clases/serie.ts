@@ -60,7 +60,7 @@ export class serie {
     }
     agregarActor (a: actor ): void {
         this.actores.push(a)
-        a.agregarSerie(this);
+        a.agregarSerie(this);   
 
         
     }
